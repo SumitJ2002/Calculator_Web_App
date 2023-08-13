@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #1e1e1e;
+    /* Dark background color */
+    color: #ffffff;
+    /* Light text color */
+}
+
+.calculator {
+    background-color: #2a2a2a;
+    /* Dark calculator background color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 100px;
+}
+
+#display {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: #3a3a3a;
+    /* Dark display background color */
+    color: #ffffff;
+    /* Light text color */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #1e1e1e;
+    /* Dark button background color */
+    color: #ffffff;
+    /* Light text color */
+    border: none;
+    cursor: pointer;
+}
+
+.num-btn {
+    background-color: #2a2a2a;
+    /* Dark number button background color */
+}
+
+button:hover {
+    background-color: #3a3a3a;
+    /* Dark hover background color */
+}
